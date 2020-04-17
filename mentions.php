@@ -12,7 +12,7 @@ require "src/html/header.php";
                         <ul class="mt-6 leading-normal">
                             <li class="mb-4"><b><u>Open Source</u></b>: <?php echo env("title"); ?> est Open Source et vous pouvez retrouver le code source à <a href="https://github.com/hiberfile/hiberlink">cette adresse</a>.</li>
                             <li class="mb-4"><b><u>Stockage</u></b>: <?php echo env("title"); ?> reçoit votre lien et le transmet à une base de donnée MySQL, qui s'en charge de le stocker.</li>
-                            <li class="mb-4"><b><u>Données Personnelle</u></b>: Voici les données récoltées pour garantir le fonctionnement de HiberLink:<ul class="mt-6 leading-normal">
+                            <li class="mb-4"><b><u>Données Personnelles</u></b>: Voici les données récoltées pour garantir le fonctionnement de HiberLink:<ul class="mt-6 leading-normal">
                             <li class="mb-4"><b><u>Adresse IP</u></b>: Votre adresse IP est récupérée dès que vous accéder au service. Celle-ci sert à compléter les logs sur nos serveurs.</li>
                                     <?php
                                     if (env("matomo") == true) {
